@@ -28,11 +28,23 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
+    <div class="container-fluid">
       <!-- Timeblocks go here -->
+      <div class="row no-gutters">
+        <div class="col-md-1 hour">
+            <p>10 PM</p>
+        </div>
+        <div class="col-md-10 ">
+          <textarea class="description test past"></textarea>
+        </div>
+        <div class="col-md-1">
+          <button type="submit" class="saveBtn test"><i class="fas fa-save" ></i></button>
+        </div>
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
