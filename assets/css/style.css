@@ -2,7 +2,6 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
-  box-sizing: border-box;
 }
 
 textarea{
@@ -20,11 +19,11 @@ div{
   padding: 0;
 }
 
-.test {
+/* .test {
   position: relative;
   vertical-align: top;
   top: -33.333333333333333333333333333333px;
-}
+} */
 
 .jumbotron {
   text-align: center;
