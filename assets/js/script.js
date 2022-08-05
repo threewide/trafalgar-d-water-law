@@ -67,73 +67,46 @@ function setTextAreasFromLocal() {
 saveBtn9AMEl.on('click', function () {
 
     localStorage.setItem("textArea9AM", textArea9AMEl.val());
-    console.log(textArea9AMEl.val());
-    // var newPassword = passwordGenerator(15);
-    // passwordDisplayEl.text(newPassword);
   });
   
 saveBtn10AMEl.on('click', function () {
 
     localStorage.setItem("textArea10AM", textArea10AMEl.val());
-    console.log(textArea9AMEl.val());
-    // var newPassword = passwordGenerator(15);
-    // passwordDisplayEl.text(newPassword);
   });
   
 saveBtn11AMEl.on('click', function () {
 
     localStorage.setItem("textArea11AM", textArea11AMEl.val());
-    console.log(textArea9AMEl.val());
-    // var newPassword = passwordGenerator(15);
-    // passwordDisplayEl.text(newPassword);
   });
   
 saveBtn12PMEl.on('click', function () {
 
     localStorage.setItem("textArea12PM", textArea12PMEl.val());
-    console.log(textArea9AMEl.val());
-    // var newPassword = passwordGenerator(15);
-    // passwordDisplayEl.text(newPassword);
   });
   
 saveBtn1PMEl.on('click', function () {
 
     localStorage.setItem("textArea1PM", textArea1PMEl.val());
-    console.log(textArea9AMEl.val());
-    // var newPassword = passwordGenerator(15);
-    // passwordDisplayEl.text(newPassword);
   });
   
 saveBtn2PMEl.on('click', function () {
 
     localStorage.setItem("textArea2PM", textArea2PMEl.val());
-    console.log(textArea9AMEl.val());
-    // var newPassword = passwordGenerator(15);
-    // passwordDisplayEl.text(newPassword);
   });
   
 saveBtn3PMEl.on('click', function () {
 
     localStorage.setItem("textArea3PM", textArea3PMEl.val());
-    console.log(textArea9AMEl.val());
-    // var newPassword = passwordGenerator(15);
-    // passwordDisplayEl.text(newPassword);
   });
   
 saveBtn4PMEl.on('click', function () {
 
     localStorage.setItem("textArea4PM", textArea4PMEl.val());
-    console.log(textArea9AMEl.val());
-    // var newPassword = passwordGenerator(15);
-    // passwordDisplayEl.text(newPassword);
   });
   
 saveBtn5PMEl.on('click', function () {
 
     localStorage.setItem("textArea5PM", textArea5PMEl.val());
-    console.log(textArea9AMEl.val());
-    // var newPassword = passwordGenerator(15);
-    // passwordDisplayEl.text(newPassword);
   });
 
 
