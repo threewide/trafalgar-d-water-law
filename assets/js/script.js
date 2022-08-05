@@ -76,11 +76,14 @@ function setTextAreasFromLocal() {
     }
 }
 
-function setColourCodes () {
-    if (true){
-        var x;
-    }
-}
+// Ran out of time
+
+// function setColourCodes () {
+//     var currentTime = moment().format("H");
+//     if (currentTime >= 9){
+//         textArea9AMEl.append('past');
+//     }
+// }
 
 // on button click it save the text in the textArea to local storage
 saveBtn9AMEl.on('click', function () {
@@ -132,3 +135,4 @@ saveBtn5PMEl.on('click', function () {
 // run the set current date and text areas
 setCurrentDate();
 setTextAreasFromLocal();
+//setColourCodes();
